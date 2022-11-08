@@ -41,7 +41,7 @@ module.exports = {
         map: [
           ['@', './src']
         ],
-        extensions: ['.js', '.vue']
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue']
       }
     },
     'import/core-modules': ['vue', 'vuex']
