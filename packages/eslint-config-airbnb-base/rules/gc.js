@@ -37,14 +37,14 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      },
       alias: {
         map: [
           ['@', './src']
         ],
         extensions: ['.vue', '.js', '.jsx', '.ts', '.tsx']
-      },
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     },
     'import/core-modules': ['vue', 'vuex']
