@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Geekclo eslint base config.",
   "main": "index.js",
   "exports": {
